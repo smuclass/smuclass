@@ -36,7 +36,7 @@ ignoreErrors = ["error-remote-getjson"]
   # ./[folderName]/
   # ...
   # Note: result of the tree command
-  userName = "sehon.kwon"
+  userName = "sehoon.kwon"
   pcName = "SMU"
   workDir = "smuclass"
   profile = "profile.txt"
