@@ -80,13 +80,13 @@ ignoreErrors = ["error-remote-getjson"]
   folderName = "my_class"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-    ["재무관리", "https://www.example.com/"],
-    ["기업과금융", "https://golang.org/"],
-    ["파생상품의이해", "https://www.example.com/"],
-    ["생활과재테크", "https://golang.org/"],
-    ["R", "/post/some-activity.md"],
-    ["Python", "/post/some-activity.md"],
-    ["WSL: windows subsystems for linux", "https://golang.org/"],
+    ["재무관리", "https://smuclass-wsl.netlify.app/"],
+    ["기업과금융", "https://smuclass-wsl.netlify.app/"],
+    ["파생상품의이해", "https://smuclass-wsl.netlify.app/"],
+    ["생활과재테크", "https://smuclass-wsl.netlify.app/"],
+    ["R", "https://smuclass-wsl.netlify.app/"],
+    ["Python", "https://smuclass-wsl.netlify.app/"],
+    ["WSL: windows subsystem for linux", "https://smuclass-wsl.netlify.app/"],
   ]
 
 [module]
