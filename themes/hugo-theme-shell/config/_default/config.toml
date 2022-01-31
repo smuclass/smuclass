@@ -1,4 +1,4 @@
-baseURL = "https://www.example.com/"
+baseURL = "https://smuclass.netlify.app/"
 title = "Shell"
 # author = "Yukuro"
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
@@ -48,7 +48,7 @@ ignoreErrors = ["error-remote-getjson"]
   # Note: and set "math: true" at front matter in your Markdown file
   ps1Delay = 0 # prompt speed : [userName]@[pcName]:~/$ , [userName]@[pcName]:~/[workDir]$
   stdoutDelay = 0 # stdout speed : [description] , files in Params.Tree
-  commandDelay = 50 # command speed : cd [workDir] , cat [profile] , tree ./[folderName]/
+  commandDelay = 10 # command speed : cd [workDir] , cat [profile] , tree ./[folderName]/
 
   # terminalDelay = 20 : deprecated
 
@@ -77,16 +77,16 @@ ignoreErrors = ["error-remote-getjson"]
 
   [Params.Tree]
   use = true
-  folderName = "my_class"
+  folderName = "my_directories"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-    ["재무관리", "https://smuclass-wsl.netlify.app/"],
-    ["기업과금융", "https://smuclass-wsl.netlify.app/"],
-    ["파생상품의이해", "https://smuclass-wsl.netlify.app/"],
-    ["생활과재테크", "https://smuclass-wsl.netlify.app/"],
-    ["R", "https://smuclass-wsl.netlify.app/"],
-    ["Python", "https://smuclass-wsl.netlify.app/"],
+    ["재무론", "https://smuclass-fin.netlify.app/"],
+    ["기업이론", "https://smuclass-firm.netlify.app/"],
+    ["파생상품론", "https://smuclass-deriv.netlify.app/"],
+    ["통계학/계량경제학", "https://smuclass-stats.netlify.app/"],
+    ["R-Python-VBA", "https://smuclass-rpyv.netlify.app/"],
     ["WSL: windows subsystem for linux", "https://smuclass-wsl.netlify.app/"],
+    ["아무말대잔치", "https://smuclass-talk.netlify.app/"],
   ]
 
 [module]
